@@ -20,7 +20,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		//especifica qual cenarios ou features deve ignorar,
 		//tags = {"@unitarios"},
 		//adiciona as informações do dos cenarios no console, e exporta relatorios em html ou json
-		plugin = {"pretty","html:target/report-html", "json:target/report.json"},
+		plugin = {"pretty","html:target/report-html", "json:target/cucumber-report/cucumber.json"},
 		//Tira os caracteres especiais de formatação colorida do terminal
 		//monochrome = true,
 		//Formata o nome dos metodos sem separar por underline 
