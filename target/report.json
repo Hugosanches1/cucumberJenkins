@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2023-11-11T02:25:25.020Z",
+        "start_timestamp": "2023-11-11T02:53:04.777Z",
         "line": 8,
         "name": "Logar no seu barriga",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5477503399,
+              "duration": 4671180800,
               "status": "passed"
             },
             "line": 9,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 712008401,
+              "duration": 670331300,
               "status": "passed"
             },
             "line": 10,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 151413400,
+              "duration": 101854000,
               "status": "passed"
             },
             "line": 11,

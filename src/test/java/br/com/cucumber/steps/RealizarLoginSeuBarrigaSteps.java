@@ -37,7 +37,7 @@ public class RealizarLoginSeuBarrigaSteps {
 	@Entao("^o login eh realizado com sucesso")
 	public void oLoginEhRealizadoComSucesso() {
 		
-		Assert.assertEquals("Bem vindo, hugo!", driver.findElement(By.xpath("//div[text()='Bem vindo, hugo!']")).getText());
+		Assert.assertEquals("Bem vindo, hugos!", driver.findElement(By.xpath("//div[text()='Bem vindo, hugo!']")).getText());
 		
 		driver.close();
 		
