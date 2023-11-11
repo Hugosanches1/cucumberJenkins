@@ -1,0 +1,60 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-11T02:25:25.020Z",
+        "line": 8,
+        "name": "Logar no seu barriga",
+        "description": "",
+        "id": "testar-cucumber-jenkins;logar-no-seu-barriga",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 5477503399,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que acessei o endereco da aplicacao",
+            "match": {
+              "location": "RealizarLoginSeuBarrigaSteps.queAcesseiOEnderecoDaAplicacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 712008401,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "informar os dados de acesso e confirmar",
+            "match": {
+              "location": "RealizarLoginSeuBarrigaSteps.informarOsDadosDeAcessoEConfirmar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 151413400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o login eh realizado com sucesso",
+            "match": {
+              "location": "RealizarLoginSeuBarrigaSteps.oLoginEhRealizadoComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Testar cucumber jenkins",
+    "description": "\tComo tester \n\tEu quero quero aprender mais\n\tPara me desenvolver",
+    "id": "testar-cucumber-jenkins",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/realizarLoginSeuBarriga.feature",
+    "tags": []
+  }
+]

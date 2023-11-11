@@ -1,0 +1,3 @@
+br\com\cucumber\config\RegistryCucumber.class
+br\com\cucumber\runners\RunnerTest.class
+br\com\cucumber\steps\RealizarLoginSeuBarrigaSteps.class
